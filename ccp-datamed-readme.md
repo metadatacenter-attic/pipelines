@@ -8,9 +8,11 @@ The CCP metadata pipeline helps investigators submit complete and validated meta
 
 **TLDR Version**
 
-Just want to get started? Here's what you need to do. Click on the Create CCP Metadata link below this paragraph (create an account/log in to CEDAR if you need to), and when your metadata can be indexed by DataMed, set the Ready to Index attribute at the top of the template to "Ready to Index". That's it. (You might want to read the section "What I need to fill out" below, too.)
+Just want to get started? Here's what you need to do. Click on the Create CCP Metadata link below this paragraph (create an account/log in to CEDAR if you need to), and when your metadata can be indexed by DataMed, set the Ready to Index attribute at the top of the template to "Ready to Index". That's it, except we really value your input to fill out the survey. (You might want to read the section "What I need to fill out" below, too.)
 
 [Create CCP Digital Object Metadata](https://cedar.metadatacenter.org/instances/create/https://repo.metadatacenter.org/templates/62c8b5f2-7dc9-4fff-9008-07c95a746411)
+
+[Fill Out Survey]()  Please take 5 minutes with this optional survey to tell us how the process went. 
 
 **1) Get a CEDAR login**  
 
@@ -28,12 +30,18 @@ To verify the form is saved, use the left arrow at upper left to back out to the
 
 **3) Submit the metadata**
 
-To indicate the metadata is ready to be indexed, set the first value (called "Ready to Index") to "Ready to Index". When DataMed sees that setting, it will begin indexing your metadata.
+To indicate the metadata is ready to be indexed, set the first value (called "Ready to Index") to "TRUE". When DataMed sees that setting, it will begin indexing your metadata.
+
+You can change the metadata any time later on in the CEDAR Workbench. If the Ready to Index flag is TRUE, DataMed will update the metadata on the next indexing pass. As long as the Ready to Index flag is FALSE, DataMed will ignore any changes.
 
 **4) Verify your metadata is in DataMed**
 
+After a suitable time has passed (indexing can take up to a day), visit the DataMed web site to verify that your metadata has been added. The source of the metadata can be found in DataMed by ...
 
+**5) Fill out our survey**
+
+If you are willing to spend 5-10 minutes to provide huge help to us (less time than reading this!), please fill out the [voluntary survey](https://www.surveymonkey.com/r/cpp-metadata-survey). 
 
 ### Support or Contact
 
-Having trouble with NCBI submission process through our pipeline? Please email to [Syed Ahmad Chan Bukhari](mailto:ahmad.chan@yale.edu) or to [John Graybeal](mailto:jgraybeal@stanford.edu) and we’ll help you sort it out.
+Having trouble with the submission process through our pipeline? Please email to [Syed Ahmad Chan Bukhari](mailto:ahmad.chan@yale.edu) or to [John Graybeal](mailto:jgraybeal@stanford.edu) and we’ll help you sort it out.
